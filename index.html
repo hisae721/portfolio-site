@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hisae Mishima | Portfolio</title>
+  <link rel="stylesheet" href="src/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@200..700&family=Shippori+Mincho&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="icon" href="favicon.png">
+</head>
+
+<body>
+  <div class="stars">
+    <script type="module" src="src/main.ts"></script>
+
+    <div class="container">
+      <header>
+        <h1>PORTFOLIO</h1>
+        <ul class="gnav">
+          <li><a href="#profile">PROFILE</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="./src/future.html">FUTURE</a></li>
+        </ul>
+      </header>
+
+      <div class="profile" id="profile">
+        <h2>PROFILE</h2>
+        <img src="src/images/S__100950019.jpg" alt="三嶋の写真" class="profile-img">
+        <div>
+          <p>三嶋寿恵と申します。<br>営業職として働きながらエンジニアを目指し、日々学習に取り組んでいます。<br>
+
+          現在はTypeScriptを中心に、処理の流れや状態管理を意識した開発を進めています。<br>
+
+          実務でシステムを利用する中で感じた課題意識をもとに、<br>ユーザー目線を大切にした開発ができるエンジニアを目指しています。<br>
+
+          本ポートフォリオでは、これまでに制作した成果物を通し、<br>学習内容や工夫した点をご紹介させて頂きます。</p>
+        </div>
+      </div>
+
+      <div class="portfolio" id="portfolio">
+        <h2>PORTFOLIO</h2>
+        <ul class="tile">
+          <li>
+            <a href="http://kensyu.whitesnow.jp/mishima_hisae/portfolio2/">
+              <img src="src/images/Recommended-Books.png" alt="おすすめ小説紹介サイトのトップページ画像">
+            </a>
+            <h3>お薦め小説紹介サイト</h3>
+            <p>★制作背景★　HTML/CSSの卒業課題として制作しました。題材が自由だったため、自身の趣味である読書の魅力を伝えるサイトを作りたいと考え、このテーマを選びました。</p>
+            <p>★概要★　HTML/CSSで作成したレスポンシブ対応のWebサイトです。本の紹介を目的としたサイトで、PC・スマートフォンのどちらでも見やすいレイアウトを意識しています。</p>
+            <p>★工夫した点★　ユーザーの視線の流れ（左から右への動き）を意識し、テキストやアニメーションが自然に視線誘導されるよう設計しました。また、見やすさを重視し余白のバランスにもこだわりました。</p>
+            <p>★苦労した点★　レスポンシブ対応において、画面サイズごとにレイアウトが崩れる問題があり苦労しました。特に画像やテキストの配置調整に試行錯誤し、メディアクエリを活用して対応しました。</p>
+            <p>★学んだこと★　レスポンシブ対応の基本や、見やすいレイアウトを作るための余白の取り方、視線誘導を意識したデザインの重要性を学びました。</p>
+
+          </li>
+          <li>
+            <a href="https://hisae721.github.io/vite-calculator-revise/">
+              <img src="src/images/Calculator.png " alt="電卓アプリの画面">
+            </a>
+            <h3>電卓アプリ</h3>
+            <p>★制作背景★　TypeScriptの中間課題として制作しました。四則演算の仕組みや入力制御など、基本的なロジックを理解することを目的として取り組みました。</p><br>
+            <p>★概要★　TypeScriptを用いて四則演算と入力制御を実装した電卓アプリです。ユーザーが直感的に操作できるよう、ボタン入力に応じた計算処理や表示の更新を行う仕組みを構築しました。</p><br>
+            <p>★工夫した点★　入力制御に力を入れ、演算子の連続入力や小数点の重複入力が起きないように実装しました。また、計算処理と表示処理を分けることで、コードの見通しが良くなるように意識しました。</p><br>
+            <p>★苦労した点★　小数点を含む計算や、足し算と掛け算が混在する連続計算において正しい結果が出ないことがあり苦労しました。処理の順序や状態の管理を見直しながら修正を行いました。</p><br>
+            <p>★学んだこと★　この課題で初めてクラスを用いた設計に取り組み、処理を分割することの重要性を学びました。また、計算ロジックを正しく組み立てる難しさと、状態管理の重要性を理解しました。</p>
+          </li>
+
+        </ul>
+
+
+
+
+      </div>
+
+    </div>
+
+    <footer>
+      <p>© 2026 Hisae Mishima</p>
+
+      <p>
+        <a href="https://github.com/hisae721" target="_blank">
+          GitHub
+        </a>
+      </p>
+
+      <p>お気軽にご連絡ください。</p>
+    </footer>
+
+  </div>
+</body>
+
+</html>
